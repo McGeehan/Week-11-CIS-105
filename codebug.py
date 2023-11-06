@@ -18,6 +18,8 @@ print("The area of the circle is:", circle_area)
     this line will raise a ValueError. To fix this, you should use a try-except block to handle the error.
 
     The third bug is on the line print("The area of the circle is:", circle_area). 
-    If the calculate_area function raises an error (for example, because of the first bug), this line will not be executed, and the user will not see any output. To fix this, you should move the print statement inside a try-except block, so that it is executed even if there is an error.
+    If the calculate_area function raises an error (for example, because of the first bug), 
+    this line will not be executed, and the user will not see any output. 
+    To fix this, you should move the print statement inside a try-except block, so that it is executed even if there is an error.
 
     '''
